@@ -40,33 +40,6 @@ eachBtn.addEventListener('click',()=>{
   })
 })
 });
-// like.forEach(eachBtn => console.log(eachBtn))
-
-// like.forEach(eachBtn => eachBtn.addEventListener('click',()=>{
-
-//   mimicServerCall()
-//   .then(data =>{
-
-//   if(eachBtn.innerHTML==='♡'){
-//     eachBtn.innerHTML='♥'
-//     eachBtn.classList.add('activated-heart')
-//   }
-//   else{
-//     eachBtn.innerHTML='♡'
-//     eachBtn.classList.remove('activated-heart')
-//   }
-    
-//   })
-//   .catch(error => {
-//     // const modal=document.querySelector('#modal')
-//     modal.classList.remove('hidden')
-//     const modalMessage=document.querySelector('#modal-message')
-//     modalMessage.textContent=error
-//     .setTimeout(function(){
-//       modal.classList.add('hidden')
-//     },3000)
-//   })
-// }))
 
 
 //------------------------------------------------------------------------------
